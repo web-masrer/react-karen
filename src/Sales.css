@@ -1,0 +1,31 @@
+.sales-items-box {
+   display: flex;
+   flex-wrap: wrap;
+}
+.sales-title {
+   text-align: center;
+   color: blueviolet;
+   padding-top: 3%;
+}
+.sales-item {
+   width: 30%;
+   border: 2px solid black;
+   align-items: center;
+   margin: 5% 10% 10% 5%;
+}
+
+.item-con-img {
+   margin: 5% 15% 0px 15%;
+}
+.item-img {
+   border: 2px solid rgb(230, 12, 12);
+   max-width: 100%;
+}
+.item-img:hover {
+   width: 100%;
+}
+
+.item-write {
+   text-align: center;
+   color: blue;
+}
